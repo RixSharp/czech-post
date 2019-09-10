@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Contributte\\CzechPost\\": "src"
+      "Rix\\CzechPost\\": "src"
     }
   },
   "autoload-dev": {
