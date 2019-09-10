@@ -19,53 +19,20 @@
 ## Install
 
 ```sh
-composer require contributte/czech-post
+composer require contributte/czech-post-updated
 ```
 
 ## Versions
 
 | State       | Version | Branch   | PHP      |
 |-------------|---------|----------|----------|
-| dev         | `^0.2`  | `master` | `>= 7.1` |
 | stable      | `^0.1`  | `master` | `>= 7.1` |
 
 ## Overview
 
-- [Configuration](.docs/README.md#configuration)
-- [Usage](.docs/README.md#usage)
-  - [Rootquestor](.docs/README.md#rootquestor)
-  - [Requestors](.docs/README.md#requestors)
-  - [Client](.docs/README.md#client)
-
 ## Maintainers
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/f3l1x">
-            <img width="150" height="150" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=150">
-        </a>
-        </br>
-        <a href="https://github.com/f3l1x">Milan Felix Šulc</a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/mabar">
-            <img width="150" height="150" src="https://avatars0.githubusercontent.com/u/20974277?s=150&v=4">
-        </a>
-        </br>
-        <a href="https://github.com/mabar">Marek Bartoš</a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/kedlas">
-            <img width="150" height="150" src="https://avatars3.githubusercontent.com/u/3510893?s=150&v=4">
-        </a>
-        </br>
-        <a href="https://github.com/kedlas">Tomáš Sedláček</a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+Forked from https://github.com/contributte/czech-post
 
 -----
 

@@ -1,6 +1,6 @@
 {
-  "name": "contributte/czech-post",
-  "description": "Czech Post API client",
+  "name": "contributte/czech-post-updated",
+  "description": "Czech Post API client updated",
   "keywords": [
     "nette",
     "czechpost",
@@ -9,15 +9,11 @@
   ],
   "type": "library",
   "license": "MPL-2.0",
-  "homepage": "https://github.com/contributte/czech-post",
+  "homepage": "https://github.com/RixSharp/czech-post",
   "authors": [
     {
-      "name": "Tomáš Sedláček",
-      "homepage": "https://github.com/kedlas"
-    },
-    {
-      "name": "Marek Bartoš",
-      "homepage": "https://marek-bartos.cz"
+      "name": "Rix Sharp",
+      "homepage": "https://github.com/RixSharp"
     }
   ],
   "require": {
