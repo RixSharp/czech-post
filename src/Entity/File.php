@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Entity;
+namespace Rix\CzechPost\Entity;
 
 final class File
 {

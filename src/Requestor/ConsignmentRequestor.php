@@ -1,14 +1,14 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Requestor;
+namespace Rix\CzechPost\Requestor;
 
-use Contributte\CzechPost\Client\ConsignmentClient;
-use Contributte\CzechPost\Entity\CancelableDispatch;
-use Contributte\CzechPost\Entity\Consignment;
-use Contributte\CzechPost\Entity\Dispatch;
-use Contributte\CzechPost\Exception\Logical\XmlException;
-use Contributte\CzechPost\Exception\Runtime\ResponseException;
-use Contributte\CzechPost\Utils\Helpers;
+use Rix\CzechPost\Client\ConsignmentClient;
+use Rix\CzechPost\Entity\CancelableDispatch;
+use Rix\CzechPost\Entity\Consignment;
+use Rix\CzechPost\Entity\Dispatch;
+use Rix\CzechPost\Exception\Logical\XmlException;
+use Rix\CzechPost\Exception\Runtime\ResponseException;
+use Rix\CzechPost\Utils\Helpers;
 use DateTimeInterface;
 use Psr\Http\Message\ResponseInterface;
 

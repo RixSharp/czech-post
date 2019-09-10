@@ -38,8 +38,8 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Tests\\Cases\\Contributte\\CzechPost\\": "tests/cases",
-      "Tests\\Toolkit\\Contributte\\CzechPost\\": "tests/toolkit"
+      "Tests\\Cases\\Rix\\CzechPost\\": "tests/cases",
+      "Tests\\Toolkit\\Rix\\CzechPost\\": "tests/toolkit"
     }
   },
   "minimum-stability": "dev",

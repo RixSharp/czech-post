@@ -1,9 +1,9 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Entity;
+namespace Rix\CzechPost\Entity;
 
-use Contributte\CzechPost\Enum\Status;
-use Contributte\CzechPost\Exception\Logical\InvalidStateException;
+use Rix\CzechPost\Enum\Status;
+use Rix\CzechPost\Exception\Logical\InvalidStateException;
 
 final class CancelableDispatch
 {

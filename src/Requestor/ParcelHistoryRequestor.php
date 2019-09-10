@@ -1,12 +1,12 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Requestor;
+namespace Rix\CzechPost\Requestor;
 
-use Contributte\CzechPost\Client\ParcelHistoryClient;
-use Contributte\CzechPost\Entity\State;
-use Contributte\CzechPost\Enum\HistoryState;
-use Contributte\CzechPost\Exception\LogicalException;
-use Contributte\CzechPost\Exception\Runtime\ResponseException;
+use Rix\CzechPost\Client\ParcelHistoryClient;
+use Rix\CzechPost\Entity\State;
+use Rix\CzechPost\Enum\HistoryState;
+use Rix\CzechPost\Exception\LogicalException;
+use Rix\CzechPost\Exception\Runtime\ResponseException;
 use Nette\Utils\Json;
 use Nette\Utils\JsonException;
 use Psr\Http\Message\ResponseInterface;

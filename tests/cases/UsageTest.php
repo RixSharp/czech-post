@@ -1,19 +1,19 @@
 <?php declare(strict_types = 1);
 
-namespace Tests\Cases\Contributte\CzechPost;
+namespace Tests\Cases\Rix\CzechPost;
 
-use Contributte\CzechPost\Client\ConsignmentClient;
-use Contributte\CzechPost\Client\ParcelHistoryClient;
-use Contributte\CzechPost\Entity\CancelableDispatch;
-use Contributte\CzechPost\Entity\Dispatch;
-use Contributte\CzechPost\Exception\Runtime\ResponseException;
-use Contributte\CzechPost\Http\GuzzleClient;
-use Contributte\CzechPost\Requestor\ConsignmentRequestor;
-use Contributte\CzechPost\Requestor\ParcelHistoryRequestor;
+use Rix\CzechPost\Client\ConsignmentClient;
+use Rix\CzechPost\Client\ParcelHistoryClient;
+use Rix\CzechPost\Entity\CancelableDispatch;
+use Rix\CzechPost\Entity\Dispatch;
+use Rix\CzechPost\Exception\Runtime\ResponseException;
+use Rix\CzechPost\Http\GuzzleClient;
+use Rix\CzechPost\Requestor\ConsignmentRequestor;
+use Rix\CzechPost\Requestor\ParcelHistoryRequestor;
 use DateTimeImmutable;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\TestCase;
-use Tests\Cases\Contributte\CzechPost\XmlRequest\ConsignmentRequestFactoryTest;
+use Tests\Cases\Rix\CzechPost\XmlRequest\ConsignmentRequestFactoryTest;
 
 final class UsageTest extends TestCase
 {

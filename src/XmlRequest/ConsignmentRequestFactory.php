@@ -1,10 +1,10 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\XmlRequest;
+namespace Rix\CzechPost\XmlRequest;
 
-use Contributte\CzechPost\Entity\Consignment;
-use Contributte\CzechPost\Entity\File;
-use Contributte\CzechPost\Enum\PrintType;
+use Rix\CzechPost\Entity\Consignment;
+use Rix\CzechPost\Entity\File;
+use Rix\CzechPost\Enum\PrintType;
 use DOMDocument;
 use DOMElement;
 use DOMNode;

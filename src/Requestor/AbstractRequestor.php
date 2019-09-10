@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Requestor;
+namespace Rix\CzechPost\Requestor;
 
-use Contributte\CzechPost\Exception\Runtime\ResponseException;
+use Rix\CzechPost\Exception\Runtime\ResponseException;
 use Psr\Http\Message\ResponseInterface;
 
 abstract class AbstractRequestor

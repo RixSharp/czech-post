@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Exception\Runtime;
+namespace Rix\CzechPost\Exception\Runtime;
 
-use Contributte\CzechPost\Exception\RuntimeException;
+use Rix\CzechPost\Exception\RuntimeException;
 
 class RequestException extends RuntimeException
 {

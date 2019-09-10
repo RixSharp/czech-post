@@ -1,9 +1,9 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Utils;
+namespace Rix\CzechPost\Utils;
 
-use Contributte\CzechPost\Exception\Logical\XmlException;
-use Contributte\CzechPost\Exception\RuntimeException;
+use Rix\CzechPost\Exception\Logical\XmlException;
+use Rix\CzechPost\Exception\RuntimeException;
 use LibXMLError;
 use SimpleXMLElement;
 

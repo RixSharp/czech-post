@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Exception\Logical;
+namespace Rix\CzechPost\Exception\Logical;
 
-use Contributte\CzechPost\Exception\LogicalException;
+use Rix\CzechPost\Exception\LogicalException;
 
 class XmlException extends LogicalException
 {

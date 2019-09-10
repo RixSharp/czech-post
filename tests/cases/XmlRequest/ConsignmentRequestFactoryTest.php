@@ -1,12 +1,12 @@
 <?php declare(strict_types = 1);
 
-namespace Tests\Cases\Contributte\CzechPost\XmlRequest;
+namespace Tests\Cases\Rix\CzechPost\XmlRequest;
 
-use Contributte\CzechPost\Entity\Cheque;
-use Contributte\CzechPost\Entity\Consignment;
-use Contributte\CzechPost\Entity\File;
-use Contributte\CzechPost\Entity\Person;
-use Contributte\CzechPost\XmlRequest\ConsignmentRequestFactory;
+use Rix\CzechPost\Entity\Cheque;
+use Rix\CzechPost\Entity\Consignment;
+use Rix\CzechPost\Entity\File;
+use Rix\CzechPost\Entity\Person;
+use Rix\CzechPost\XmlRequest\ConsignmentRequestFactory;
 use PHPUnit\Framework\TestCase;
 
 final class ConsignmentRequestFactoryTest extends TestCase

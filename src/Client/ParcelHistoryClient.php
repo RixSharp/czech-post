@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Client;
+namespace Rix\CzechPost\Client;
 
-use Contributte\CzechPost\Http\HttpClient;
+use Rix\CzechPost\Http\HttpClient;
 use Psr\Http\Message\ResponseInterface;
 
 final class ParcelHistoryClient

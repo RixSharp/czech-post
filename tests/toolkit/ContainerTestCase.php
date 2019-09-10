@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Tests\Toolkit\Contributte\CzechPost;
+namespace Tests\Toolkit\Rix\CzechPost;
 
 use Nette\DI\Compiler;
 use Nette\DI\Container;

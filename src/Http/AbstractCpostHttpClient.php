@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Http;
+namespace Rix\CzechPost\Http;
 
 use InvalidArgumentException;
 

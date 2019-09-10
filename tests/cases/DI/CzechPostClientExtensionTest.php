@@ -1,15 +1,15 @@
 <?php declare(strict_types = 1);
 
-namespace Tests\Cases\Contributte\CzechPost\DI;
+namespace Tests\Cases\Rix\CzechPost\DI;
 
-use Contributte\CzechPost\Client\ConsignmentClient;
-use Contributte\CzechPost\CpostRootquestor;
-use Contributte\CzechPost\DI\CzechPostExtension;
-use Contributte\CzechPost\Http\HttpClient;
-use Contributte\CzechPost\Requestor\ConsignmentRequestor;
+use Rix\CzechPost\Client\ConsignmentClient;
+use Rix\CzechPost\CpostRootquestor;
+use Rix\CzechPost\DI\CzechPostExtension;
+use Rix\CzechPost\Http\HttpClient;
+use Rix\CzechPost\Requestor\ConsignmentRequestor;
 use GuzzleHttp\Client;
 use Nette\DI\Compiler;
-use Tests\Toolkit\Contributte\CzechPost\ContainerTestCase;
+use Tests\Toolkit\Rix\CzechPost\ContainerTestCase;
 
 class CzechPostClientExtensionTest extends ContainerTestCase
 {

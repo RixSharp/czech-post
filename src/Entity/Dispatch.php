@@ -1,11 +1,11 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Entity;
+namespace Rix\CzechPost\Entity;
 
-use Contributte\CzechPost\Enum\Envelope;
-use Contributte\CzechPost\Enum\PrintType;
-use Contributte\CzechPost\Enum\Status;
-use Contributte\CzechPost\Exception\Logical\InvalidStateException;
+use Rix\CzechPost\Enum\Envelope;
+use Rix\CzechPost\Enum\PrintType;
+use Rix\CzechPost\Enum\Status;
+use Rix\CzechPost\Exception\Logical\InvalidStateException;
 use DateTimeImmutable;
 
 final class Dispatch

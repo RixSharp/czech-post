@@ -1,14 +1,14 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\DI;
+namespace Rix\CzechPost\DI;
 
-use Contributte\CzechPost\Client\ConsignmentClient;
-use Contributte\CzechPost\Client\ParcelHistoryClient;
-use Contributte\CzechPost\CpostRootquestor;
-use Contributte\CzechPost\Http\GuzzleClient;
-use Contributte\CzechPost\Http\HttpClient;
-use Contributte\CzechPost\Requestor\ConsignmentRequestor;
-use Contributte\CzechPost\Requestor\ParcelHistoryRequestor;
+use Rix\CzechPost\Client\ConsignmentClient;
+use Rix\CzechPost\Client\ParcelHistoryClient;
+use Rix\CzechPost\CpostRootquestor;
+use Rix\CzechPost\Http\GuzzleClient;
+use Rix\CzechPost\Http\HttpClient;
+use Rix\CzechPost\Requestor\ConsignmentRequestor;
+use Rix\CzechPost\Requestor\ParcelHistoryRequestor;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use Nette\DI\CompilerExtension;

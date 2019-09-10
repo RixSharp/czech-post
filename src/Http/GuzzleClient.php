@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Http;
+namespace Rix\CzechPost\Http;
 
-use Contributte\CzechPost\Exception\Runtime\RequestException;
+use Rix\CzechPost\Exception\Runtime\RequestException;
 use GuzzleHttp\ClientInterface as GuzzleClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Message\ResponseInterface;

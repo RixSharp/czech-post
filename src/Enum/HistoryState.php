@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Enum;
+namespace Rix\CzechPost\Enum;
 
 final class HistoryState
 {

@@ -1,10 +1,10 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost;
+namespace Rix\CzechPost;
 
-use Contributte\CzechPost\Exception\Logical\InvalidStateException;
-use Contributte\CzechPost\Requestor\AbstractRequestor;
-use Contributte\CzechPost\Requestor\ConsignmentRequestor;
+use Rix\CzechPost\Exception\Logical\InvalidStateException;
+use Rix\CzechPost\Requestor\AbstractRequestor;
+use Rix\CzechPost\Requestor\ConsignmentRequestor;
 
 /**
  * @property-read ConsignmentRequestor $consignment

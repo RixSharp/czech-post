@@ -1,12 +1,12 @@
 <?php declare(strict_types = 1);
 
-namespace Contributte\CzechPost\Client;
+namespace Rix\CzechPost\Client;
 
-use Contributte\CzechPost\Entity\Consignment;
-use Contributte\CzechPost\Exception\LogicalException;
-use Contributte\CzechPost\Http\AbstractCpostHttpClient;
-use Contributte\CzechPost\Http\HttpClient;
-use Contributte\CzechPost\XmlRequest\ConsignmentRequestFactory;
+use Rix\CzechPost\Entity\Consignment;
+use Rix\CzechPost\Exception\LogicalException;
+use Rix\CzechPost\Http\AbstractCpostHttpClient;
+use Rix\CzechPost\Http\HttpClient;
+use Rix\CzechPost\XmlRequest\ConsignmentRequestFactory;
 use DateTimeInterface;
 use InvalidArgumentException;
 use Psr\Http\Message\ResponseInterface;
